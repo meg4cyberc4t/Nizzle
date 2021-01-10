@@ -2,7 +2,6 @@
 
 import os
 from random import shuffle, randrange, randint
-from time import sleep
 import datetime
 
 
@@ -58,19 +57,7 @@ def start():
              "  M     YMM    MM   AMV  ,  AMV  ,   MM  YM.    ,\n" \
              ".JML.    YM  .JMML.AMMmmmM AMMmmmM .JMML. `Mbmmd'\n"
     print(banner)
-    sleep(1)
-    size = input('Чтобы начать игру, укажите размер поля (по умолчанию 3):')
-    while True:
-        if size == "":
-            size = 3
-            break
-        elif size.isnumeric() is False:
-            size = input('Проверьте правильность данных!:')
-        elif int(size) < 2:
-            size = input('Укажите число побольше!:')
-        else:
-            size = int(size)
-            break
+    size = 3
     level = input('Укажите уровень сложности\n(1 - Легкий, 2 - Средний, 3 - Сложный):')
     while True:
         if level == "":
