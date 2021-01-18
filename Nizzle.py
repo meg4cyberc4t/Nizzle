@@ -1,5 +1,3 @@
-#by cybercat, PPryanik
-
 import os
 from random import shuffle, randrange, randint
 import datetime
