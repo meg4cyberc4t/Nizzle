@@ -37,3 +37,5 @@ For example, the shift of the first line will look like this.
 7|8|9
 ```
 
+# Solutions in different languages
+### Python - /python/main.py
