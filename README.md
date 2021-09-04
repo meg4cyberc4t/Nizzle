@@ -17,6 +17,7 @@
 - Random
 - Functional Programming
 - Pointers
+- DateTime
 
 # Technical specification
 
