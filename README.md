@@ -39,3 +39,4 @@ For example, the shift of the first line will look like this.
 
 # Solutions in different languages
 ### Python - /python/main.py
+### Dart - /dart/bin/main.dart or main.exe
